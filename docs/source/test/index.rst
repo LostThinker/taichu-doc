@@ -18,14 +18,4 @@ Contents
 
 .. toctree::
 
-   usage
-   test
-
-
-Send Contents
---------
-.. toctree::
-
-   usage
-   test
-   test/index
+   test1
