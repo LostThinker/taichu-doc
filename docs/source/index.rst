@@ -14,5 +14,8 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 太初
 
    test
