@@ -19,4 +19,4 @@ Contents
 .. toctree::
 
    usage
-   test.md
+   test
