@@ -1,9 +1,11 @@
-Template for the Read the Docs tutorial
+欢迎查看太初平台文档
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+太初是一个分布式多智能体强化学习平台。
 
-Read the tutorial here:
+详细文档请查看 https://taichu-doc.readthedocs.io/en/latest/
 
-https://docs.readthedocs.io/en/stable/tutorial/
+源代码请查看 https://github.com/LostThinker/taichu
+
+
+
