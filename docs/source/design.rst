@@ -5,12 +5,16 @@
 --------
 为了实现通用性，将数据流接口进行了固定的字典设计。由于多智能体强化学习环境的观测一般不止一项，因此将观测obs定义为一个字典，键如下定义：
 
-.. code-block:: python
+::
+
     obs={'agent_obs','last_action','global_state','action_mask','agent_id'}
+
 与环境交互的transition数据定义为
 
-.. code-block:: python
+::
+
     time_step={'obs','action','next_obs','reward','done','prev_state','specific'}
+
 为了防止混乱，所有的key均是单数，但是里面包含的数据可能是每个智能体的数据，如agent_obs里包含环境中所有agent的观测数据。time_step中'specific'键
 的加入是为了支持一些算法特殊的数据记录需要，如mappo中的v的记录等。
 
