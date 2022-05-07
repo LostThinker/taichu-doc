@@ -14,10 +14,6 @@
 
 
 
-
-平台介绍
---------
-
 .. toctree::
    :maxdepth: 1
    :caption: 平台介绍
@@ -25,8 +21,6 @@
    introduction
 
 
-平台设计
---------
 
 .. toctree::
    :maxdepth: 1
